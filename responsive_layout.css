@@ -1,0 +1,1749 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: auto;
+    background-color:#17151d ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header{
+    
+    width: 100%;
+    height: auto;
+    background-image:linear-gradient(rgba(0,0,1,0.9),rgb(8, 8, 8 ,0.9)) , url('img/layer.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#header_nav{
+    
+    width: 90%;
+    height: 125px;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.a_nav{
+    margin-left: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+#logo_header{
+    height: 70%;
+    width: auto;
+}
+/* header section starts */
+#header_section{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 80px;
+                    align-items: center;
+                    gap: 54px;
+                   
+             
+                }
+                #header_photo{
+                    width: 50%;
+                    height: 100%; 
+                                    
+                }
+
+                #img_pizza{
+                    width: 75%;
+                    height: 75%;
+                    margin-left: 140px;
+                    margin-bottom: 30px;
+                
+                
+                }
+                #header_para{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
+                    margin-bottom: 30px;
+                    
+                }
+
+
+                .p11{
+                
+                    font-weight: bold;
+                    text-transform: capitalize;
+                    color: #fe8f00;
+                    font-size: 40px;
+                
+                }
+                .p12{
+                    width: 340px;
+                    color:white;
+                    text-transform: capitalize;
+                    font-size: 20px;
+                }
+
+
+                input{
+                    color: black;
+                    background-color:#fe8f00;
+                    height: 40px;
+                    width: 130px;
+                    border-radius: 5px;
+                    font-weight: bold;
+                    border: none;
+                
+                }
+
+@media (max-width:1024px){
+    
+header{
+    
+  
+    background-image:linear-gradient(rgba(0,0,1,0.8),rgb(8, 8, 8 ,0.8)) , url('img/layer.png');
+  
+}
+    #header_nav{
+       
+        justify-content: space-evenly;
+        
+    
+    }
+    #logo_header{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+                    
+    .a_nav{
+                        margin-left: 15px;
+                        letter-spacing: none;
+                        font-size: 12px;
+                    }
+                    
+                   
+
+                    #header_section{
+                      
+                        margin-top: 70px;
+                        
+                        gap: 64px;
+                 
+                    }
+                    #header_photo{
+                        width: 50%;
+                        height: 100%; 
+                                        
+                    }
+    
+                    #img_pizza{
+                        width: 75%;
+                        height: 75%;
+                        margin-left: 100px;
+                    
+                    
+                    }
+                    #header_para{
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                        
+                    }
+    
+    
+                    .p11{
+                    
+                        font-weight: bold;
+                        text-transform: capitalize;
+                        color: #fe8f00;
+                        font-size: 26px;
+                    
+                    }
+                    .p12{
+                        width: 260px;
+                        color:white;
+                        text-transform: capitalize;
+                        font-size: 14px;
+                    }
+    
+    
+                    input{
+                  
+                        height: 30px;
+                        width: 110px;
+                       
+                    
+                    }
+
+                            }
+
+
+
+@media (max-width:768px) {
+    header{
+    
+       
+        background-image:linear-gradient(rgba(0,0,1,0.7),rgb(8, 8, 8 ,0.7)) , url('img/layer.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+                                #header_nav{
+                                    
+                                    width: 100%;
+                                    height: 80px;
+                                    display: grid;
+                                    grid-template-columns: 1fr 1fr;
+                                    grid-template-rows: 1fr 1fr;
+                                   grid-row-gap:8px ;
+                                   margin-bottom: 10px;
+                                    
+                                
+                                }
+                                #menu1_header{
+                                    
+                                 
+                                }
+
+                                #logo_header{
+                                    width: auto;
+                                    height: auto;
+                                   
+                                    grid-row:1/2 ;
+                                    grid-column: 1/3;
+                                    justify-self: center;
+                                }
+                                #logo_in_nav{
+                                    width: 100%;
+                                    height: 100%;
+                                    margin-top: 15px;
+                                }
+
+                                #menu2_header{
+                                    
+                                    justify-self: end;
+
+                                }
+                                                
+                                .a_nav{
+                                    margin-left: 3px;
+                                    letter-spacing: none;
+                                    font-size: 12px;
+                                }
+                                                
+                                               
+                            
+                                                #header_section{
+                                                    width: 100%;
+                                                    height: auto;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    margin-top: 30px;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    gap: 18px;
+                                             
+                                                }
+                                                #header_photo{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    text-align: center;
+                                                    
+                                                                    
+                                                }
+                                
+                                                #img_pizza{
+                                                    width: 55%;
+                                                    height: 55%;
+                                                    margin-left: 0px;
+                                                margin-top: 55px;
+                                                
+                                                }
+                                                #header_para{
+                                                    text-align: center;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    gap: 16px;
+                                                    margin-bottom: 15px;
+                                                }
+                                
+                                
+                                                .p11{
+                                                    font-size: 23px;
+                                                
+                                                }
+                                                .p12{
+                                                    width: 230px;
+                                                   
+                                                   
+                                                    font-size: 12px;
+                                                }
+                                
+                                
+                                                input{
+                                              
+                                                    height: 27px;
+                                                    width: 100px;
+                                                    
+                                                
+                                                }
+                            
+                                                        }
+@media(max-width:440px){
+    .a_nav{
+        font-size: 8px;
+    }
+
+}
+@media (max-width:320px){
+    header{
+    
+        
+        background-image:linear-gradient(rgba(0,0,1,0.5),rgb(8, 8, 8 ,0.5)) , url('img/layer.png');
+       
+        
+    }
+
+                                #header_nav{
+                                    
+                                    width: 100%;
+                                    height: 120px;
+                                    display: grid;
+                                    grid-template-columns: 100%;
+                                    grid-template-rows: auto 1fr 1fr;
+                                    grid-row-gap:8px ;
+                                    margin-bottom: 40px;
+                                    text-align: center;
+                                   
+                                
+                                }
+                                #menu1_header{
+                                    grid-row:2/3 ;
+                                    grid-column: 1/2;
+                                    justify-self: center;
+                                    align-self: center;
+                                }
+
+                                #logo_header{
+                                    width: auto;
+                                   
+                                    justify-self: center;
+                                    grid-row:1/2 ;
+                                    grid-column: 1/2;
+
+                                }
+                                #logo_in_nav{
+                                    
+                                    margin-top: 15px;
+                                }
+
+                                #menu2_header{
+                                    grid-row:3/4 ;
+                                    grid-column: 1/2;
+                                    justify-self: center;
+                                    
+
+                                }
+                                                
+                                .a_nav{
+                                    margin-left: 3px;
+                                    letter-spacing: none;
+                                    font-size: 8px;
+                                    font-weight: bold;
+                                }
+                                                
+                                                
+                            
+                                                #header_section{
+                                                    width: 100%;
+                                                    height: auto;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    margin-top: 30px;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    gap: 18px;
+                                                
+                                                }
+                                                #header_photo{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    text-align: center;
+                                                    
+                                                                    
+                                                }
+                                
+                                                #img_pizza{
+                                                    width: 45%;
+                                                    height: 45%;
+                                                    margin-left: 0px;
+                                                   
+                                                
+                                                }
+                                                #header_para{
+                                                    text-align: center;
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    gap: 16px;
+                                                    margin-bottom: 15px;
+                                                    
+                                                }
+                                
+                                
+                                                .p11{
+                                                    font-size: 120%;
+                                                
+                                                }
+                                                .p12{
+                                                    width: 90%;
+                                                    margin: auto;
+                                                    
+                                                    font-size: 75%;
+                                                }
+                                
+                                
+                                                input{
+                                                
+                                                    height: 27px;
+                                                    max-width: 100px;
+                                                    min-width: 30px;
+                                                    
+                                                
+                                                }
+                            
+                                                        }    
+                                                        
+                                                        
+                                                        
+
+
+/* ////////////////                page1 starts               /////////////// */
+#section1{
+    
+    height: 600px;
+    width: 100%;
+    
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+   
+
+}
+
+
+/* second section */
+
+#sec1_container1  {
+      
+    
+         
+         height: 80%;
+         width: 85%;
+         
+         display: flex;
+         flex-direction: row;
+         gap: 40px;
+         
+        
+       
+         
+}
+#pg1_cups{
+  
+   width: 100%;
+   height: auto;
+
+
+}
+/* img of cup */
+#img2_cup{
+    
+   width: 100%;
+   height: 100%;
+    
+    
+  
+    
+    
+}
+#pg1_headpara{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+}
+/* heading */
+
+
+h4#p21{
+    
+   
+   
+    font-weight: bold;
+    text-transform: capitalize;
+    color:white;
+    font-size: 36px;
+    margin-bottom: 24px;
+    
+  
+}
+/* paragraph */
+p#p22{
+    font-family:serif;
+    color:white;
+   
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: black;
+}
+
+/* page1 ends  */
+
+@media (max-width:1024px){
+
+/* ////////////////                page1 starts               /////////////// */
+#section1{
+    
+    height: 530px;
+    width: 100%;
+    
+  
+    
+
+}
+
+
+/* second section */
+
+#sec1_container1  {
+      
+    
+         
+         height: 70%;
+         width: 85%;
+         
+       
+         
+        
+       
+         
+}
+
+
+
+
+h4#p21{
+    
+   
+   
+   
+    font-size: 34px;
+    margin-bottom: 22px;
+    
+  
+}
+/* paragraph */
+p#p22{
+    
+    font-size: 18px;
+    
+}
+
+
+
+
+}
+@media (max-width:768px){
+
+    /* ////////////////                page1 starts               /////////////// */
+    
+    #section1{
+        
+        height:auto;
+        width: 100%;
+     
+    }
+    
+    
+    /* second section */
+    
+    #sec1_container1  {
+        width: 80%;
+         margin-bottom: 33px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;      
+             
+    }
+    #pg1_cups{
+  
+       margin-top: 33px;
+       
+        width: 100%;
+        height: auto;
+        justify-self: center;
+     
+     
+     }
+     /* img of cup */
+     #img2_cup{
+         
+        width: 100%;
+        height: 100%;
+         
+         
+       
+         
+         
+     }
+     
+#pg1_headpara{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+
+}
+    
+    
+    
+    
+    h4#p21{
+        
+       
+       
+       
+        font-size: 32px;
+        margin-bottom: 18px;
+        
+      
+    }
+    /* paragraph */
+    p#p22{
+        
+        font-size: 16px;
+        
+    }
+
+
+}
+
+    
+@media (max-width:320px){
+
+    /* ////////////////                page1 starts               /////////////// */
+    
+    #section1{
+        
+        height:auto;
+        width: 100%;
+
+     
+    }
+    
+    
+   
+    
+    #sec1_container1  {
+        width: 90%;
+        /* display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1f; */
+        
+             
+             
+    }
+    #pg1_cups{
+  
+       margin-top: 25px;
+       
+        width: 100%;
+        height: 50%;
+      
+     
+     
+     }
+     /* img of cup */
+     #img2_cup{
+         
+        width: 100%;
+        height: 100%;
+         
+         
+       
+         
+         
+     }
+     
+#pg1_headpara{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+
+}
+    
+    
+    
+    
+    h4#p21{
+        text-align: center;
+       
+       
+       
+        font-size: 16px;
+        margin-bottom: 12px;
+        
+      
+    }
+    /* paragraph */
+    p#p22{
+        text-align: center;
+        font-size: 9px;
+        
+    }
+
+}
+    /* section2 starts */
+
+
+#section2{
+    height: auto;
+    width: 100%;
+}
+
+    #container2{
+        height:auto;
+        width: 100%;
+    }
+    #img_sec3{
+        height: 100%;
+        width: 100%;
+    }
+
+    /* section 2 ends*/
+
+
+
+
+
+    /* section 3 starts */
+
+
+#section3{
+    margin-top: 70px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+#heading_section3{
+    width:100%;
+    height: auto;
+    margin-bottom: 33px;
+}
+
+#section3_container3{
+    
+    margin: auto;
+    width: 90%;
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    gap:30px ;
+}
+
+#div_img{
+    height: 100%;
+    width: 100%;
+}
+
+#heading3{
+   
+    font-weight: bolder;
+    font-size: 44px;
+    color: blanchedalmond;
+    text-align: center;    
+    margin-bottom: 30px;
+}
+
+
+
+
+
+/*////////////////             page3 ends            //////////////////////// */
+@media (max-width:1024px){
+    #heading3{
+        font-size: 190%;
+        margin-bottom: 30px;
+    }
+    
+
+   
+    
+    #section3_container3{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+        
+       
+    }
+
+}
+    @media (max-width:768px){
+
+
+        #heading3{
+            font-size: 150%;
+            margin-bottom: 30px;
+        }
+        
+
+
+
+        #section3_container3{
+          gap: 25px;
+            
+           
+        }
+
+        
+    }
+
+    @media (max-width:324px){
+
+
+        #section3_container3{
+            display: grid;
+            grid-template-columns:  1fr ;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            gap: 40px;
+            
+           
+        }
+
+        #heading3{
+          font-size: 13px;
+            margin-bottom: 23px;
+        }
+        
+
+
+
+        #section3_container3{
+          gap: 20px;
+            
+           
+        }
+
+        
+    }
+    
+ 
+/*////////////////////             section 4 starts                ////////////////////  */
+
+  
+    
+/*////////////////////             page4 starts                ////////////////////  */
+#section4{
+    height:600px;
+    width: 100%;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    
+   background-image: url('img/layer.png');
+  background-position:inherit;
+ /* background-position: inherit; */
+
+  
+
+
+}
+
+#section4_container4{
+   
+    width: 55%;
+    height: 50%;
+    background-image: linear-gradient( rgba(26, 25, 24, 0.5) , rgba(32, 30, 28, 0.6));
+    border: 4px   #fe8f00 solid ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+  
+    
+
+}
+#heading4{
+   
+   
+    font-weight: bolder;
+    font-size:30px;
+    color: blanchedalmond;
+    text-align: center;
+
+
+}
+#para_on_img{
+   
+    font-weight: bolder;
+    font-size:22px;
+    color: blanchedalmond;
+    text-align: center; 
+
+}
+
+
+@media (max-width:1024px){
+
+
+   
+    
+    #section4_container4{
+       
+        
+        height: 45%;
+    }
+
+
+
+
+
+#heading4{
+   
+    font-weight: bolder;
+    font-size:24px;
+    color: blanchedalmond;
+    text-align: center;
+    
+  
+}
+#para_on_img{
+    font-weight: bolder;
+    font-size:18px;
+    color: blanchedalmond;
+    text-align: center;
+   
+}
+
+}
+
+
+
+
+@media (max-width:769px){
+    #section4{
+        height:550px;
+      
+        
+    }
+
+
+   
+    
+    #section4_container4{
+        padding: 20px;
+       
+        
+        height:40%;
+        width: 65%;
+    }
+
+
+
+
+
+#heading4{
+   
+   
+    font-size:120%;
+   
+    
+  
+}
+#para_on_img{
+      font-size:85%;
+   
+
+
+}
+}
+
+
+
+
+@media (max-width:324px){
+    #section4{
+        height:500px;
+      
+        
+    }
+
+
+   
+    
+    #section4_container4{
+        padding: 10px;
+       
+        
+        height:30%;
+        width: 75%;
+    }
+
+
+
+
+
+#heading4{
+   
+   
+    font-size:80%;
+   
+    
+  
+}
+#para_on_img{
+      font-size:50%;
+   
+
+
+}
+}
+
+
+
+
+
+
+    
+
+/*////////////////             section 4 ends            //////////////////////// */
+
+
+
+   
+
+
+
+
+
+/*////////////////////             page5 starts                ////////////////////  */
+#section5{
+    height:700px;
+    width: 100%;
+    background-color: #17151d ;
+
+
+
+}
+
+
+#heading5{
+font-size: 30px;
+text-align: center;
+padding-top: 50px;
+color: blanchedalmond;
+margin-bottom: 33px;
+}
+
+#div_for_pic_section5{
+    width: 90%;
+    margin: auto;
+    
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr;
+    gap: 20px;
+}
+
+.img_in_p5{
+    height: auto;
+    width: 100%;
+   
+}
+/* heading h2 in page5 */
+h2.h2_in_p5{
+   color:  #fe8f00;
+   font-size: 110%;
+   margin-top: 20px;
+   margin-bottom: 15px;
+}
+
+.para_in_p5{
+   font-style:bold ;
+   font-size:90%;
+    color: blanchedalmond;
+}
+
+
+
+/* heading h3 in page5 */
+
+ 
+ h3.h3_in_p5{
+     margin-top: 15px;
+    color: #fe8f00;
+ 
+ }
+
+
+
+/*////////////////             page5 ends            //////////////////////// */
+
+
+@media (max-width:1024px){
+    #section5{
+        height:auto;
+        width: 100%;
+        background-color: #17151d  ;
+   
+    
+    
+    }
+    
+    
+    #heading5{
+    font-size:28px;
+    text-align: center;
+    padding-top: 50px;
+    color: blanchedalmond;
+    margin-bottom: 63px;
+    }
+    
+    #div_for_pic_section5{
+        width: 95%;
+        margin: auto;
+        
+       
+        display: block;
+       
+       
+    }
+    .div1_p5{
+        margin-bottom: 30px;
+        display: grid;
+        grid-template-columns: 30% 50% 1fr;
+        grid-template-rows: 1fr;
+        grid-auto-rows: auto;
+        gap: 15px;
+        align-items: center;
+    }
+    .h_and_p{
+        max-width: 400px;
+    }
+    
+    /* heading h2 in page5 */
+    h2.h2_in_p5{
+       color:  #fe8f00;
+       font-size:105%;
+       margin: 0px;
+       margin-bottom: 8px;
+      
+    }
+    
+    .para_in_p5{
+       font-style:bold ;
+       font-size:95%;
+        
+    }
+    
+    
+    
+    /* heading h3 in page5 */
+    
+     
+     h3.h3_in_p5{
+         margin-top: 15px;
+        
+     
+     }
+    
+    
+
+
+
+}
+
+
+
+
+
+
+@media (max-width:768px){
+   #section5{
+       width: 100%;
+   }
+    .section5_container5{
+        width: 100%;
+    }
+    #heading_section5{
+        width: 100%;
+    }
+    
+    #heading5{
+      width: 100%;  
+    font-size:24px;
+    text-align: center;
+    /* padding-top: 45px; */
+    color: blanchedalmond;
+    margin-bottom: 60px;
+    }
+    
+    #div_for_pic_section5{
+        width: 100%;
+        margin: auto;
+        grid-template-columns: 100%;
+        grid-template-rows:1fr 1fr 1fr;
+       
+       
+    }
+    .div1_p5{
+        width: 100%;
+        margin-top: 60px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       
+    }
+    .pic{
+        width: 90%;
+        margin: auto;
+    }
+    .img_in_p5{
+        width: 100%;
+        margin: auto;
+    }
+    .h_and_p{
+        width: 90%;
+        margin: auto;
+        
+    }
+    /* heading h2 in page5 */
+    h2.h2_in_p5{
+       color:  #fe8f00;
+       font-size:140%;
+       margin: auto;
+       margin-bottom: 8px;
+       width: 90%;
+    
+    }
+    
+    
+    .para_in_p5{
+        width: 90%;
+        margin: auto;
+       font-style:bold ;
+       font-size:100%;
+        
+    }
+    
+    
+    
+    /* heading h3 in page5 */
+    
+     
+    
+     h3.h3_in_p5{
+         font-size: 130%;
+        margin-top: 0px;
+       color: #fe8f00;
+    
+    }
+    
+
+
+
+}
+
+@media (max-width:324px){
+   
+    #section5{
+        width: 100%;
+        text-align: center;
+    }
+     .section5_container5{
+         width: 100%;
+     }
+     #heading_section5{
+         width: 100%;
+     }
+     
+     #heading5{
+       width: 100%;  
+     font-size:24px;
+     text-align: center;
+     /* padding-top: 45px; */
+     color: blanchedalmond;
+     margin-bottom: 60px;
+     }
+     
+     #div_for_pic_section5{
+         width: 100%;
+         margin: auto;
+         grid-template-columns: 100%;
+         grid-template-rows:1fr 1fr 1fr;
+        
+        
+     }
+     .div1_p5{
+         width: 100%;
+         margin-top: 60px;
+         margin-bottom: 30px;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+        
+     }
+     .pic{
+         width: 90%;
+         margin: auto;
+     }
+     .img_in_p5{
+         width: 100%;
+         margin: auto;
+     }
+     .h_and_p{
+         width: 90%;
+         margin: auto;
+         
+     }
+     /* heading h2 in page5 */
+     h2.h2_in_p5{
+        color:  #fe8f00;
+        font-size:100%;
+        margin: auto;
+        margin-bottom: 8px;
+        width: 90%;
+     
+     }
+     
+     
+     .para_in_p5{
+         width: 90%;
+         margin: auto;
+        font-style:bold ;
+        font-size:75%;
+         
+     }
+     
+     
+     
+     /* heading h3 in page5 */
+     
+      
+     
+      h3.h3_in_p5{
+          font-size: 100%;
+         margin-top: 0px;
+        color: #fe8f00;
+     
+     }
+       
+
+    
+
+}
+
+
+/*////////////////////             footer starts                ////////////////////  */
+#footer_part1{
+    height:610px;
+    width: 100%;
+    background-color:#17151d  ;
+}
+
+.container-footer_part1{
+    width: 100%;
+    position: relative;
+}
+
+img#yellow_line{
+    width: 100%;
+    height: 340px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top:115px
+}
+
+img#plate_in_futter{
+    width:510px;
+    height: 510px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top:30px
+}
+/*/////////////////            FOOTER PATR ONE ENDS    //////////////// */
+
+
+
+
+
+
+/*/////////////////            FOOTER PATR TOW STARTS    //////////////// */
+#footer_part2{
+    height:380px;
+    width: 100%;
+   list-style: none;
+    background-color:#17151d ;
+    
+
+
+
+}
+
+.container-footer_part2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#last_logo{
+    width: 400px;
+    height:100px ;
+    margin: auto;
+}
+#footer_list{
+    margin-top: 34px;
+}
+.footer_list{
+    margin: 15px;
+    color: white;
+    margin-left: 44px;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+}
+.foter_links{
+    
+        margin-left: 20px;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        letter-spacing: 1px;
+  
+
+}
+#div_for_icons{
+    margin-top: 34px;
+word-spacing: 34px;
+}
+
+
+/*/////////////////            FOOTER PATR ONE ENDS    //////////////// */
+
+@media (max-width:1024px){
+
+/*////////////////////             footer starts                ////////////////////  */
+#footer_part1{
+    height:600px;
+    width: 100%;
+    background-color: #17151d  ;
+}
+
+.container-footer_part1{
+    width: 100%;
+    position: relative;
+}
+
+img#yellow_line{
+    width: 100%;
+    height: 260px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top:130px
+}
+
+img#plate_in_futter{
+    max-width:380px;
+    
+    max-height: 380px;
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    top:65px
+}
+/*/////////////////            FOOTER PATR ONE ENDS    //////////////// */
+
+
+
+
+
+
+/*/////////////////            FOOTER PATR TOW STARTS    //////////////// */
+#footer_part2{
+    height:380px;
+    width: 100%;
+   list-style: none;
+    background-color: #17151d  ;
+    
+
+
+
+}
+
+.container-footer_part2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#last_logo{
+    width: 300px;
+    height:75px ;
+    margin: auto;
+}
+#footer_list{
+    margin-top: 30px;
+}
+.footer_list{
+    margin: 3px;
+    color: white;
+    margin-left: 15px;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+}
+
+
+#div_for_icons{
+    margin-top: 27px;
+word-spacing: 34px;
+}
+.foter_links{
+    font-size: 75%;
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+
+}
+
+}
+
+@media (max-width:769px){
+
+    /*////////////////////             footer starts                ////////////////////  */
+    #footer_part1{
+        height:300px;
+        width: 100%;
+        background-color:#17151d ;
+    }
+    
+    .container-footer_part1{
+        width: 100%;
+        position: relative;
+    }
+    
+    img#yellow_line{
+        width: 100%;
+        height: 105px;
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        top:110px
+    }
+    
+    img#plate_in_futter{
+        max-width:155px;
+        
+        max-height: 155px;
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        top:85px
+    }
+    /*/////////////////            FOOTER PATR ONE ENDS    //////////////// */
+
+    
+
+
+
+/*/////////////////            FOOTER PATR TOW STARTS    //////////////// */
+#footer_part2{
+    height:150px;
+    width: 100%;
+   list-style: none;
+    background-color: #17151d  ;
+    
+
+
+
+}
+
+.container-footer_part2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#last_logo{
+    width: 130px;
+    height:25px ;
+    margin: auto;
+}
+#footer_list{
+    margin-top: 15px;
+}
+.footer_list{
+    margin: 3px;
+    color: white;
+    margin-left: 4px;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+}
+
+
+#div_for_icons{
+    margin-top: 20px;
+word-spacing: 14px;
+}
+.foter_links{
+    font-size: 45%;
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+
+}
+.footer_icons{
+    width: 25px;
+    height: 25px;
+}
+
+}
+
+@media (max-width:324px){
+
+    /*////////////////////             footer starts                ////////////////////  */
+    #footer_part1{
+        height:200px;
+        width: 100%;
+        background-color: #17151d  ;
+    }
+    
+    .container-footer_part1{
+        width: 100%;
+        position: relative;
+    }
+    
+    img#yellow_line{
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        top:60px
+    }
+    
+    img#plate_in_futter{
+        max-width:110px;
+        
+        max-height: 110px;
+        position: absolute;
+        z-index: 1;
+        left: 0px;
+        top:40px
+    }
+    /*/////////////////            FOOTER PATR ONE ENDS    //////////////// */
+
+    
+
+
+
+/*/////////////////            FOOTER PATR TOW STARTS    //////////////// */
+#footer_part2{
+    height:100px;
+    width: 100%;
+   list-style: none;
+    background-color: #17151d  ;
+    
+
+
+
+}
+
+.container-footer_part2{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+#last_logo{
+    width: 90px;
+    height:20px ;
+    margin: auto;
+}
+#footer_list{
+    margin-top: 10px;
+}
+.footer_list{
+    margin: 3px;
+    color: white;
+    margin-left: 4px;
+    font-weight: bold;
+    list-style: none;
+    display: inline;
+}
+
+
+#div_for_icons{
+    margin-top: 10px;
+word-spacing: 5px;
+}
+.foter_links{
+    font-size: 40%;
+    margin-left: 0px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 0px;
+
+
+}
+.footer_icons{
+    width: 20px;
+    height: 20px;
+}
+
+}
+
+
+
+
